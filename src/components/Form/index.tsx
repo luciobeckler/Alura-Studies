@@ -1,11 +1,11 @@
 import React from "react";
 import Button from "../Button";
-import "./styles.scss";
+import styles from "./Form.module.scss";
 
 export default function Form() {
   return (
-    <form className="novaTarefa" action="">
-      <div className="inputContainer">
+    <form className={styles.novaTarefa} action="">
+      <div className={styles.inputContainer}>
         <label htmlFor="tarefa">Adicione um novo estudo</label>
         <input
           type="text"
@@ -15,7 +15,7 @@ export default function Form() {
           id="tarefa"
         />
       </div>
-      <div className="inputContainer">
+      <div className={styles.inputContainer}>
         <label htmlFor=""></label>
         <input
           type="time"
