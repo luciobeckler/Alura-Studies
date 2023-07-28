@@ -3,6 +3,8 @@ import Button from "../Button";
 import styles from "./Form.module.scss";
 
 export default function Form() {
+  console.log("Renderizando FORM");
+
   return (
     <form className={styles.novaTarefa} action="">
       <div className={styles.inputContainer}>
@@ -27,7 +29,7 @@ export default function Form() {
           required
         />
       </div>
-      <Button />
+      <Button texto="Adicionar" />
     </form>
   );
 }

@@ -1,31 +1,16 @@
 import React from "react";
 import styles from "./List.module.scss";
+import Item from "./Item";
 
-export default function List() {
-  const tarefas = [
-    {
-      tarefa: "React",
-      tempo: "02:00:00",
-    },
-    {
-      tarefa: "JavaScript",
-      tempo: "01:00:00",
-    },
-    {
-      tarefa: "TypeScript",
-      tempo: "03:00:00",
-    },
-  ];
+export default function List({ tarefas }: any) {
   return (
     <aside className={styles.listaTarefas}>
       <h2>Estudos do dia</h2>
       <ul>
-        {tarefas.map((item, index) => (
-          <li key={index} className={styles.item}>
-            <h3>{item.tarefa}</h3>
-            <span>{item.tempo}</span>
-          </li>
-        ))}
+        {tarefas.map((item: any) => {
+          console.log("Exibindo item:", item.tarefa + item.tempo); // Console.log dentro do mapeamento
+          return <Item key={item.id} tarefa={item.tarefa} tempo={item.tempo} />;
+        })}
       </ul>
     </aside>
   );
