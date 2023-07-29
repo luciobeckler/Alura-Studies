@@ -7,7 +7,7 @@ import StopWatch from "../components/StopWatch";
 
 function App() {
   // Criando a array 'tarefas' com a interface 'Tarefa'
-  const tarefas = [
+  let tarefas = [
     {
       id: uuidv4(),
       tarefa: "React",
