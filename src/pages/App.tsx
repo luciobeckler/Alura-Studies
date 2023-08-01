@@ -8,12 +8,23 @@ import { ITarefa } from "../types/tarefa";
 function App() {
   // Criando a array 'tarefas' com a interface 'Tarefa'
   const [tarefas, setTarefas] = useState<ITarefa[] | []>([]);
+  const [selecionado, setSelecionado] = useState<ITarefa>();
+
+  function handleTarefa(tarefaSelecionada: ITarefa) {
+    setSelecionado(tarefaSelecionada);
+    setTarefas((tarefasAnteriores) =>
+      tarefasAnteriores.map((tarefa) => ({
+        ...tarefa,
+        selecionado: tarefa.id === tarefaSelecionada.id ? true : false,
+      }))
+    );
+  }
 
   return (
     <div className={style.AppStyle}>
       <Form setTarefas={setTarefas} />
       <StopWatch />
-      <List tarefas={tarefas} />
+      <List handleTarefa={handleTarefa} tarefas={tarefas} />
     </div>
   );
 }

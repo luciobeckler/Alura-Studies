@@ -5,9 +5,10 @@ import { ITarefa } from "../../types/tarefa";
 
 interface ListProps {
   tarefas: ITarefa[];
+  handleTarefa: (tarefaSelecionada: ITarefa) => void;
 }
 
-export default function List({ tarefas }: ListProps) {
+export default function List({ tarefas, handleTarefa }: ListProps) {
   return (
     <aside className={styles.listaTarefas}>
       <h2>Estudos do dia</h2>
@@ -21,6 +22,7 @@ export default function List({ tarefas }: ListProps) {
               tempo={item.tempo}
               selecionado={item.selecionado}
               completado={item.completado}
+              handleTarefa={handleTarefa}
             />
           );
         })}
