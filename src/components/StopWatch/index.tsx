@@ -10,7 +10,7 @@ export default function StopWatch() {
       <div className={style.relogioWrapper}>
         <Clock />
       </div>
-      <Button texto="Iniciar " />
+      <Button type="button" texto="Iniciar " />
     </div>
   );
 }

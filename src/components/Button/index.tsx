@@ -1,7 +1,16 @@
 import React from "react";
 import styles from "./Button.module.scss";
 
-export default function Button({ texto }: { texto: string }) {
+interface ButtonProps {
+  texto: string;
+  type?: "button" | "submit" | "reset";
+}
+
+export default function Button({ texto, type }: ButtonProps) {
   console.log("Renderizando BUTTON");
-  return <button className={styles.botao}>{texto}</button>;
+  return (
+    <button type={type} className={styles.botao}>
+      {texto}
+    </button>
+  );
 }

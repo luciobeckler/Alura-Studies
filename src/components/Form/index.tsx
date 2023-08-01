@@ -1,8 +1,16 @@
 import React, { useState } from "react";
 import Button from "../Button";
 import styles from "./Form.module.scss";
+import { ITarefa } from "../../types/tarefa";
+import { v4 as uuidv4 } from "uuid";
 
-export default function Form() {
+type SetTarefas = React.Dispatch<React.SetStateAction<ITarefa[]>>;
+
+interface FormProps {
+  setTarefas: SetTarefas;
+}
+
+export default function Form({ setTarefas }: FormProps) {
   console.log("Renderizando FORM");
   const [state, setState] = useState({
     tarefa: "",
@@ -15,8 +23,28 @@ export default function Form() {
     setState({ ...state, [event.target.name]: event.target.value });
   };
 
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    console.log("handleSubmit chamado");
+    event.preventDefault();
+
+    const newTarefa: ITarefa = {
+      tarefa: state.tarefa,
+      tempo: state.tempo,
+      selecionado: false,
+      completado: false,
+      id: uuidv4(),
+    };
+
+    setTarefas((tarefasAntigas) => [...tarefasAntigas, newTarefa]);
+
+    setState({
+      tarefa: "",
+      tempo: "00:00:00",
+    });
+  };
+
   return (
-    <form className={styles.novaTarefa} action="">
+    <form onSubmit={handleSubmit} className={styles.novaTarefa} action="">
       <div className={styles.inputContainer}>
         <label htmlFor="tarefa">Adicione um novo estudo</label>
         <input
@@ -43,7 +71,7 @@ export default function Form() {
           required
         />
       </div>
-      <Button texto="Adicionar" />
+      <Button type="submit" texto="Adicionar" />
     </form>
   );
 }
