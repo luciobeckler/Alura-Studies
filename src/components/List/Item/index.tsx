@@ -14,7 +14,6 @@ export default function Item({
   id,
   handleTarefa,
 }: ItemProps) {
-  console.table({ tarefa, tempo, selecionado, completado, id });
   return (
     <li
       className={
