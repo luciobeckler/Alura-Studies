@@ -26,8 +26,8 @@ Este é um projeto front-end empolgante que desenvolvi utilizando React e TypeSc
 
 ## Links
 
-- [Acesse a aplicação online](https://lnkd.in/dtgmqcTn)
-- [Repositório Git](https://lnkd.in/dT9GrhKb)
+- [Acesse a aplicação online](https://alura-studies-ebon.vercel.app/)
+- [Linkdedin](https://www.linkedin.com/in/l%C3%BAcio-beckler-0827181a0/)
 
 ## Agradecimentos
 
