@@ -1,47 +1,50 @@
-# Getting Started with Create React App
+# Timer de Estudos com React e TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto front-end empolgante que desenvolvi utilizando React e TypeScript! O objetivo principal deste projeto é criar um timer de estudos que permite organizar o tempo dedicado ao estudo de diferentes tecnologias. Durante a jornada de desenvolvimento, adquiri diversos conhecimentos valiosos, que incluem:
 
-## Available Scripts
+## Principais Conhecimentos Adquiridos
 
-In the project directory, you can run:
+- **Iniciando com create-react-app e TypeScript:** Utilizei o Create React App (CRA) para criar o projeto, escolhendo um template TypeScript e o npm como gerenciador padrão.
+- **Estrutura do Create React App:** Explorei a organização do projeto pelo CRA, compreendendo a estrutura de pastas.
+- **Trabalhando com a pasta public:** Entendi a função da pasta 'public' e como o React preenche o arquivo index.html.
+- **Construção de Componentes:** Desenvolvi componentes utilizando tanto classes quanto funções, entendendo as nuances de cada abordagem.
+- **Utilização de JSX:** Explorei a sintaxe JSX e suas diferenças em relação ao HTML.
+- **Configuração de CSS Modules:** Configurei o projeto para utilizar CSS Modules, aproveitando seus benefícios.
+- **Classes CSS Condicionais:** Apliquei classes CSS condicionais baseadas em props, utilizando template strings.
+- **Props:** Aproveitei as props para compartilhar informações externas, tanto de forma convencional quanto através do conceito de children.
+- **Gerenciamento de Estado com Props:** Combinei props e estado para controlar o estado dos componentes.
+- **Utilização do useEffect:** Utilizei o hook useEffect para resolver desafios e otimizar o funcionamento da aplicação.
+- **Importância da chave (key):** Compreendi a relevância da chave (key) ao trabalhar com arrays no React.
+- **Spread Operator em Props:** Usei o spread e a desestruturação para transmitir e receber props entre componentes.
+- **Gerenciamento de Estados no React:** Aprendi sobre a importância dos estados para atualização de componentes.
+- **Interfaces TypeScript:** Criei e reutilizei interfaces para descrever tipos complexos, como os props dos componentes.
+- **Extensão de Interfaces:** Tirei proveito da facilidade de estender interfaces para reutilizar código.
+- **Funções Recursivas:** Implementei uma função recursiva para resolver desafios, como uma contagem regressiva.
+- **Desestruturação de Strings:** Apliquei desestruturação de strings para otimizar o código.
+- **Refatoração de Class para Function:** Realizei a migração de um componente de classe para um componente funcional, melhorando a estrutura.
+- **Experiência Online:** Subi a aplicação para ser acessada online através da plataforma Vercel, oferecendo uma forma rápida e fácil de visualizar o projeto.
 
-### `npm start`
+## Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Acesse a aplicação online](https://lnkd.in/dtgmqcTn)
+- [Repositório Git](https://lnkd.in/dT9GrhKb)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Agradecimentos
 
-### `npm test`
+Um agradecimento especial ao professor Daniel Artine e à escola de Front-End Alura por proporcionarem essa jornada intensa e cheia de aprendizados valiosos! 🙌📚
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Tecnologias Utilizadas
 
-### `npm run build`
+- React
+- TypeScript
+- CSS modules e Sass
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Como Executar o Projeto Localmente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório: `git clone https://lnkd.in/dT9GrhKb`
+2. Navegue até o diretório: `cd nome-do-diretorio`
+3. Instale as dependências: `npm install`
+4. Inicie o servidor de desenvolvimento: `npm start`
+5. Acesse a aplicação em seu navegador: `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Alura-Studies
+Divirta-se explorando o timer de estudos e os conceitos de desenvolvimento front-end com React e TypeScript! 🚀📖
