@@ -20,10 +20,27 @@ function App() {
     );
   }
 
+  function finalizaTarefa() {
+    if (selecionado) {
+      setTarefas((tarefasAnteriores) =>
+        tarefasAnteriores.map((tarefa) => {
+          if (tarefa.id === selecionado.id) {
+            return {
+              ...tarefa,
+              selecionado: false,
+              completado: true,
+            };
+          }
+          return tarefa; // Retorna a tarefa sem modificações caso não seja a tarefa selecionada
+        })
+      );
+    }
+  }
+
   return (
     <div className={style.AppStyle}>
       <Form setTarefas={setTarefas} />
-      <StopWatch selecionado={selecionado} />
+      <StopWatch selecionado={selecionado} finalizaTarefa={finalizaTarefa} />
       <List handleTarefa={handleTarefa} tarefas={tarefas} />
     </div>
   );

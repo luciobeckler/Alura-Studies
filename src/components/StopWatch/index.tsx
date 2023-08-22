@@ -7,9 +7,13 @@ import { useEffect, useState } from "react";
 
 interface StopWatchProps {
   selecionado: ITarefa | undefined;
+  finalizaTarefa: () => void;
 }
 
-export default function StopWatch({ selecionado }: StopWatchProps) {
+export default function StopWatch({
+  selecionado,
+  finalizaTarefa,
+}: StopWatchProps) {
   const [tempo, setTempo] = useState<number>();
 
   useEffect(() => {
@@ -23,7 +27,7 @@ export default function StopWatch({ selecionado }: StopWatchProps) {
       if (contador > 0) {
         setTempo(contador - 1);
         return regressiva(contador - 1);
-      }
+      } else finalizaTarefa();
     }, 1000);
   }
 

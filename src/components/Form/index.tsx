@@ -49,6 +49,7 @@ export default function Form({ setTarefas }: FormProps) {
         <label htmlFor="tarefa">Adicione um novo estudo</label>
         <input
           type="text"
+          autoComplete="off"
           placeholder="O que você quer estudar?"
           required
           name="tarefa"

@@ -17,20 +17,30 @@ export default function Item({
   return (
     <li
       className={
-        styles.item + (selecionado ? "" : " " + styles.itemSelecionado)
+        styles.item +
+        (selecionado ? " " : " " + styles.itemSelecionado) +
+        (completado ? " " + styles.itemCompletado : " ")
       }
-      onClick={() =>
-        handleTarefa({
-          tarefa,
-          tempo,
-          selecionado,
-          completado,
-          id,
-        })
-      }
+      onClick={() => {
+        if (completado === false) {
+          handleTarefa({
+            tarefa,
+            tempo,
+            selecionado,
+            completado,
+            id,
+          });
+        }
+      }}
     >
       <h3>{tarefa}</h3>
       <span>{tempo}</span>
+      {completado && (
+        <span
+          className={styles.concluido}
+          aria-label="tarefa completada"
+        ></span>
+      )}
     </li>
   );
 }
