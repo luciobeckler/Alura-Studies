@@ -42,7 +42,7 @@ Um agradecimento especial ao professor Daniel Artine e à escola de Front-End Al
 # Como Executar o Projeto Localmente
 
 1. Clone o repositório: `git clone https://lnkd.in/dT9GrhKb`
-2. Navegue até o diretório: `cd nome-do-diretorio`
+2. Navegue até o diretório: `cd Alura-Studies`
 3. Instale as dependências: `npm install`
 4. Inicie o servidor de desenvolvimento: `npm start`
 5. Acesse a aplicação em seu navegador: `http://localhost:3000`
