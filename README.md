@@ -5,17 +5,17 @@ Este é um projeto front-end empolgante que desenvolvi utilizando React e TypeSc
 ## Principais Conhecimentos Adquiridos
 
 - 📦 **Iniciando com create-react-app e TypeScript:** Utilizei o Create React App (CRA) para criar o projeto, escolhendo um template TypeScript e o npm como gerenciador padrão.
-- **Estrutura do Create React App:** Explorei a organização do projeto pelo CRA, compreendendo a estrutura de pastas.
-- **Trabalhando com a pasta public:** Entendi a função da pasta 'public' e como o React preenche o arquivo index.html.
-- **Construção de Componentes:** Desenvolvi componentes utilizando tanto classes quanto funções, entendendo as nuances de cada abordagem.
-- **Utilização de JSX:** Explorei a sintaxe JSX e suas diferenças em relação ao HTML.
-- **Configuração de CSS Modules:** Configurei o projeto para utilizar CSS Modules, aproveitando seus benefícios.
-- **Classes CSS Condicionais:** Apliquei classes CSS condicionais baseadas em props, utilizando template strings.
-- **Props:** Aproveitei as props para compartilhar informações externas, tanto de forma convencional quanto através do conceito de children.
-- **Gerenciamento de Estado com Props:** Combinei props e estado para controlar o estado dos componentes.
-- **Utilização do useEffect:** Utilizei o hook useEffect para resolver desafios e otimizar o funcionamento da aplicação.
-- **Importância da chave (key):** Compreendi a relevância da chave (key) ao trabalhar com arrays no React.
-- **Spread Operator em Props:** Usei o spread e a desestruturação para transmitir e receber props entre componentes.
+- 📁 **Estrutura do Create React App:** Explorei a organização do projeto pelo CRA, compreendendo a estrutura de pastas.
+- 📂 **Trabalhando com a pasta public:** Entendi a função da pasta 'public' e como o React preenche o arquivo index.html.
+- 📊 **Construção de Componentes:** Desenvolvi componentes utilizando tanto classes quanto funções, entendendo as nuances de cada abordagem.
+- 🔄 **Utilização de JSX:** Explorei a sintaxe JSX e suas diferenças em relação ao HTML.
+- 📜 **Configuração de CSS Modules:** Configurei o projeto para utilizar CSS Modules, aproveitando seus benefícios.
+- 💅 **Classes CSS Condicionais:** Apliquei classes CSS condicionais baseadas em props, utilizando template strings.
+- 💼 **Props:** Aproveitei as props para compartilhar informações externas, tanto de forma convencional quanto através do conceito de children.
+- 🔄 **Gerenciamento de Estado com Props:** Combinei props e estado para controlar o estado dos componentes.
+- 🎯 **Utilização do useEffect:** Utilizei o hook useEffect para resolver desafios e otimizar o funcionamento da aplicação.
+- 🔑 **Importância da chave (key):** Compreendi a relevância da chave (key) ao trabalhar com arrays no React.
+- ⚡  **Spread Operator em Props:** Usei o spread e a desestruturação para transmitir e receber props entre componentes.
 - **Gerenciamento de Estados no React:** Aprendi sobre a importância dos estados para atualização de componentes.
 - **Interfaces TypeScript:** Criei e reutilizei interfaces para descrever tipos complexos, como os props dos componentes.
 - **Extensão de Interfaces:** Tirei proveito da facilidade de estender interfaces para reutilizar código.
