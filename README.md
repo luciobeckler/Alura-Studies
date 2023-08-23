@@ -4,7 +4,7 @@ Este é um projeto front-end empolgante que desenvolvi utilizando React e TypeSc
 
 ## Principais Conhecimentos Adquiridos
 
-- **Iniciando com create-react-app e TypeScript:** Utilizei o Create React App (CRA) para criar o projeto, escolhendo um template TypeScript e o npm como gerenciador padrão.
+- 📦 **Iniciando com create-react-app e TypeScript:** Utilizei o Create React App (CRA) para criar o projeto, escolhendo um template TypeScript e o npm como gerenciador padrão.
 - **Estrutura do Create React App:** Explorei a organização do projeto pelo CRA, compreendendo a estrutura de pastas.
 - **Trabalhando com a pasta public:** Entendi a função da pasta 'public' e como o React preenche o arquivo index.html.
 - **Construção de Componentes:** Desenvolvi componentes utilizando tanto classes quanto funções, entendendo as nuances de cada abordagem.
