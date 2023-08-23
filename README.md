@@ -16,13 +16,13 @@ Este é um projeto front-end empolgante que desenvolvi utilizando React e TypeSc
 - 🎯 **Utilização do useEffect:** Utilizei o hook useEffect para resolver desafios e otimizar o funcionamento da aplicação.
 - 🔑 **Importância da chave (key):** Compreendi a relevância da chave (key) ao trabalhar com arrays no React.
 - ⚡  **Spread Operator em Props:** Usei o spread e a desestruturação para transmitir e receber props entre componentes.
-- **Gerenciamento de Estados no React:** Aprendi sobre a importância dos estados para atualização de componentes.
-- **Interfaces TypeScript:** Criei e reutilizei interfaces para descrever tipos complexos, como os props dos componentes.
-- **Extensão de Interfaces:** Tirei proveito da facilidade de estender interfaces para reutilizar código.
-- **Funções Recursivas:** Implementei uma função recursiva para resolver desafios, como uma contagem regressiva.
-- **Desestruturação de Strings:** Apliquei desestruturação de strings para otimizar o código.
-- **Refatoração de Class para Function:** Realizei a migração de um componente de classe para um componente funcional, melhorando a estrutura.
-- **Experiência Online:** Subi a aplicação para ser acessada online através da plataforma Vercel, oferecendo uma forma rápida e fácil de visualizar o projeto.
+- 📊 **Gerenciamento de Estados no React:** Aprendi sobre a importância dos estados para atualização de componentes.
+- 🎨 **Interfaces TypeScript:** Criei e reutilizei interfaces para descrever tipos complexos, como os props dos componentes.
+- 🛠️ **Extensão de Interfaces:** Tirei proveito da facilidade de estender interfaces para reutilizar código.
+-  ♻️ **Funções Recursivas:** Implementei uma função recursiva para resolver desafios, como uma contagem regressiva.
+- 📚 **Desestruturação de Strings:** Apliquei desestruturação de strings para otimizar o código.
+- 🔄 **Refatoração de Class para Function:** Realizei a migração de um componente de classe para um componente funcional, melhorando a estrutura.
+- 🌐 **Experiência Online:** Subi a aplicação para ser acessada online através da plataforma Vercel, oferecendo uma forma rápida e fácil de visualizar o projeto.
 
 ## Links
 
